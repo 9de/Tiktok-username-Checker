@@ -6,7 +6,7 @@ Tiktok username Checker that is check if username is vaild or bad or banned
 
 # 🚫 Errors 
 The project carries a lot of programming errors due to my lack of programming experience. If you have enough experience in Python to use it, please contact me via Twitter
-Twitter: DVHS
+[Twitter](https://twitter.com/DVHS)
 
 # ✨ Features
 **1- Send The Hits To Discord 🤖**
