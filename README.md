@@ -10,10 +10,15 @@ Twitter: DVHS
 
 # ✨ Features
 **1- Send The Hits To Discord 🤖**
+
 **2- You can make a sound if a username is caught 🔊**
+
 **3- Save a Hits to File 📁**
+
 **4- You Can Make A Auto username Genaretor ⛮**
+
 **5- The program can take the names of the files you selected via the filedialog! 📁**
+
 **6- You Don't Need to have a VPN 🙊**
 
 
