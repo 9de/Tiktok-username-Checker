@@ -1,6 +1,11 @@
 # Tiktok-usernam-Checker
 Tiktok username Checker that is check if username is vaild or bad or banned 
 
+
+# Update 5/30/2022
+**The API has been closed by TikTok, so you will not be able to use it anymore**
+
+
 # ⭐ First Project
 **TikTok Checker You can check if the name is available, unavailable or banned. This is my first Python project**
 
