@@ -5,13 +5,13 @@
     "printbanned": false,
     "mp3": {
     "enable": false,
-    "file":"Daddy.mp3"
+    "file":"File.mp3"
     },
   "discordWebhook": {
       "enable": true,
-      "url": "https://discord.com/api/webhooks/843794290525732874/QQQLC5BPSwTj_ATF6a3A9-pLH-H3YDtSsjUL1nlV9cow7oL-NdAKOEc86ejnHX9vau3G",
+      "url": "URL",
       "username": "TiktokCheckerGrabbering",
-      "avatarurl":  "https://a.top4top.io/p_2268p3xmn1.png",
+      "avatarurl":  "YOUR URL PHOTO HERE",
       "hexcolor": "f9829b"
   }
 }
