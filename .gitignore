@@ -1,0 +1,8 @@
+__pycache__/
+*.log
+settings.json
+available.txt
+taken.txt
+banned.txt
+*.pyc
+.env
