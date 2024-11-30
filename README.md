@@ -29,7 +29,7 @@ This tool is for educational purposes only. Please ensure you comply with TikTok
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/tiktok-username-checker.git
+git clone https://github.com/9de/tiktok-username-checker.git
 cd tiktok-username-checker
 ```
 
@@ -124,7 +124,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## ✉️ Contact
 
-Project Link: [https://github.com/yourusername/tiktok-username-checker](https://github.com/yourusername/tiktok-username-checker)
+Project Link: [https://github.com/9de/tiktok-username-checker](https://github.com/9de/tiktok-username-checker)
 
 ## 🙏 Acknowledgments
 
