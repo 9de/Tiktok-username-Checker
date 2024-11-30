@@ -1,35 +1,132 @@
-# Tiktok-usernam-Checker
-Tiktok username Checker that is check if username is vaild or bad or banned 
+# TikTok Username Availability Checker 🔍
 
+A powerful and efficient Python tool for checking the availability of TikTok usernames. Features include random username generation, bulk checking from file, Discord webhook notifications, and detailed logging capabilities.
 
-# Update 5/30/2022
-**The API has been closed by TikTok, so you will not be able to use it anymore**
+## ⚠️ Disclaimer
 
+This tool is for educational purposes only. Please ensure you comply with TikTok's Terms of Service and API usage guidelines when using this tool. The authors are not responsible for any misuse or potential consequences.
 
-# ⭐ First Project
-**TikTok Checker You can check if the name is available, unavailable or banned. This is my first Python project**
+## ✨ Features
 
-# 🚫 Errors 
-The project carries a lot of programming errors due to my lack of programming experience. If you have enough experience in Python to use it, please contact me via 
-[Twitter](https://twitter.com/DVHS)
+- Check username availability on TikTok
+- Generate random usernames with custom length
+- Bulk check usernames from a text file
+- Discord webhook integration for available username notifications
+- Detailed logging system
+- File-based results storage (available, taken, and banned usernames)
+- User-friendly command-line interface
+- File picker dialog for selecting username lists
 
-# ✨ Features
-**1- Send The Hits To Discord 🤖**
+## 🔧 Requirements
 
-**2- You can make a sound if a username is caught 🔊**
+- Python 3.7+
+- Required packages:
+  - requests
+  - discord-webhook
+  - tkinter (usually comes with Python)
 
-**3- Save a Hits to File 📁**
+## 📥 Installation
 
-**4- You Can Make A Auto username Genaretor ⛮**
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/tiktok-username-checker.git
+cd tiktok-username-checker
+```
 
-**5- The program can take the names of the files you selected via the filedialog! 📁**
+2. Install required packages:
+```bash
+pip install -r requirements.txt
+```
 
-**6- You Don't Need to have a VPN 🙊**
+3. Configure settings:
+   - Rename `settings.example.json` to `settings.json`
+   - Update the settings according to your preferences
 
+## ⚙️ Configuration
 
-# 🖼 Pic
-Sorry there is not Pic Here!
--
+Create a `settings.json` file with the following structure:
 
-# 🔚 End
-**Your use of the application is your responsibility, the developer does not bear any responsibility in the event of any problems!**
+```json
+{
+    "discordWebhook": {
+        "enable": true,
+        "url": "YOUR_WEBHOOK_URL",
+        "username": "TikTok Checker",
+        "avatarurl": "https://example.com/avatar.png",
+        "hexcolor": "FF0000"
+    },
+    "printbanned": true,
+    "printbad": true,
+    "SaveBanned": true,
+    "saveBad": true
+}
+```
+
+### Settings Explanation:
+- `discordWebhook.enable`: Enable/disable Discord notifications
+- `discordWebhook.url`: Your Discord webhook URL
+- `printbanned`: Show banned usernames in console
+- `printbad`: Show taken usernames in console
+- `SaveBanned`: Save banned usernames to file
+- `saveBad`: Save taken usernames to file
+
+## 🚀 Usage
+
+Run the script:
+```bash
+python checker.py
+```
+
+### Options:
+1. **Random Username Generator**
+   - Enter desired username length
+   - Specify number of usernames to check
+   - Tool will generate and check random usernames
+
+2. **Check from File**
+   - Select a text file containing usernames
+   - One username per line
+   - Tool will check each username in the file
+
+### Output Files:
+- `available.txt`: Available usernames
+- `taken.txt`: Taken usernames (if enabled)
+- `banned.txt`: Banned usernames (if enabled)
+- `checker.log`: Detailed operation logs
+
+## 📝 Logging
+
+The tool maintains detailed logs in `checker.log`, including:
+- Timestamp for each operation
+- Username check results
+- Error messages
+- API response information
+
+## 🔒 Rate Limiting
+
+To avoid detection and maintain stability:
+- The tool uses realistic user agents
+- Implements session management
+- Handles request timeouts
+- Catches and logs exceptions
+
+## 🛠 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📃 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## ✉️ Contact
+
+Project Link: [https://github.com/yourusername/tiktok-username-checker](https://github.com/yourusername/tiktok-username-checker)
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors who have helped with the development
+- Inspired by the need for efficient TikTok username availability checking
